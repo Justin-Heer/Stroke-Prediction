@@ -16,5 +16,12 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
+## Running the notebooks
+The first notebook to run is the statistical exploration, this will walk you through how the data was analyzed and the statistical tests that were conducted. These notebooks are titled 'statistical-exploration.ipynb' and 'significance-testing-logisticReg.ipynb'. 
+
+Next, prior to running any of the modelling notebooks you will have to run the preprocessing notebook, this will generate the processed dataset that the modelling notebooks need. 
+
 ## Results
 As one would expect, XGBoost boasts superior performance, capturing 1.4% more of the true positive test class. However, the interesting part comes from the computational time, with XGBoost requiring an additional ~34 minutes to train and tune. The details of the training process and the results are stated in the research_paper.pdf file attached in the repo. 
+
+Thank you for visiting my repo

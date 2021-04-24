@@ -7,6 +7,7 @@ This repository contains a statistical exploration of the data, including t-test
 
 ## Description
 model-* notebooks contain code to train and tune learning algorithms
+<<<<<<< HEAD
 
 preprocessing.ipynb contains code to generate the processed data required for the models
 

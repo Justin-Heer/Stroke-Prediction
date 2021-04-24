@@ -5,6 +5,12 @@ Dataset available on Kaggle at https://www.kaggle.com/fedesoriano/stroke-predict
 
 This repository contains a statistical exploration of the data, including t-testing, logit-testing and some visual diagrams. Further, we test the performance of XGBoost vs Regularized Logistic Regression in their ability to accurately classify stroke occurrence. 
 
+## Description
+model-* notebooks contain code to train and tune learning algorithms
+preprocessing.ipynb contains code to generate the processed data required for the models
+significance-testing-logisticReg.ipynb and statistical-exploration.ipynb contain code performing statistical tests on the dataset 
+report.pdf is the corresponding paper that was written, describing the experiment that was undertaken
+requirements.txt contains the python packages required to run the entire repo
 
 ## Requirements
 
